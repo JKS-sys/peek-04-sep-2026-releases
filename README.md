@@ -1,129 +1,89 @@
-<div align="center">
+<p align="center">
+  <img src="https://ipconfig.co.network/updates/peek/icon.png" width="128" height="128" alt="Peek">
+</p>
 
-# Peek
+<h1 align="center">Peek</h1>
 
-**A fast, minimal image viewer for macOS, Windows and Linux.**
+<p align="center">A fast, minimal image viewer for macOS.<br>
+Open a picture, arrow through the folder, get back to work.</p>
 
-Opens instantly. Gets out of the way. Shows you the picture.
-
-[**Download v1.0.9**](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) · [Product page](https://ipconfig.co.network/peek) · [Report an issue](https://github.com/JKS-sys/peek-04-sep-2026-releases/issues)
-
-</div>
+<p align="center"><b>Version 2.0.3</b> · about 4–5 MB · macOS 10.15 or later</p>
 
 ---
 
 ## Download
 
-Grab the file for your platform from the [latest release](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest).
+| Mac | Download |
+|---|---|
+| **Apple Silicon** (M1 and later) | [Peek_2.0.3_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.3_aarch64.dmg) |
+| **Intel** | [Peek_2.0.3_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.3_x64.dmg) |
 
-| Platform | File | Notes |
-|---|---|---|
-| **macOS** (Apple Silicon — M1/M2/M3/M4) | `Peek-1.0.9-arm64.dmg` | Most Macs sold since 2020 |
-| **macOS** (Intel) | `Peek-1.0.9.dmg` | Macs from before 2020 |
-| **Windows** 10 / 11 | `Peek-1.0.9-win.zip` | Extract, then run `Peek Setup 1.0.9.exe` |
-| **Linux** (any distro) | `Peek-1.0.9.AppImage` | `chmod +x` then run |
-| **Linux** (Debian / Ubuntu) | `peek_1.0.9_amd64.deb` | `sudo dpkg -i peek_1.0.9_amd64.deb` |
+Not sure which? Apple menu → **About This Mac**. "Apple M1/M2/M3/M4" means Apple Silicon; "Intel" means Intel.
+All versions are on the [Releases](../../releases) page.
 
-Not sure which Mac you have? Apple menu → About This Mac. If it says "Apple M…",
-take the **arm64** build.
+## Install
 
-### macOS — the first launch
+1. Open the DMG and drag **Peek** into **Applications**.
+2. Open **Terminal** and run this once:
 
-Peek is signed but not distributed through the App Store, so Gatekeeper stops it once.
-Open Terminal and run:
+   ```bash
+   xattr -cr /Applications/Peek.app
+   ```
 
-```bash
-xattr -cr /Applications/Peek.app
-```
+3. Open Peek.
 
-Then open Peek normally. You only ever do this once.
+**Why step 2?** Peek is not distributed through the App Store, so macOS marks a downloaded copy as quarantined and may
+say it is "damaged". That command removes the download flag — it changes nothing else. You only need it for a copy
+downloaded in a browser; updates installed from inside Peek don't need it.
 
-### Windows
+## Updating
 
-SmartScreen may warn you because the installer is new. Click **More info → Run anyway**.
+Peek updates itself: **Update → Check for Updates**, then **Install & Restart**.
 
----
+**Coming from Peek 1.x?** Download and install the DMG above once, by hand. Version 1 cannot install updates by
+itself — its update button downloads the new version and then fails to install it. After this one manual install,
+every later update is automatic.
 
 ## What it does
 
-- **Opens fast.** Straight to the image, no splash screen, no spinner.
-- **Every common format** — JPEG, PNG, GIF, WebP, AVIF, HEIC/HEIF, TIFF, BMP, SVG, ICO.
-- **Folder browsing** with a collapsible file tree (`⌘B`), and drag across it to select many images at once.
-- **Multiple windows.** Select several images in Finder and press Return — each one opens in its own window.
-- **Share / AirDrop** straight from the toolbar (`⌘⇧A`).
-- **Zoom, pan, rotate, flip**, fit-to-window and 1:1.
-- **Wrap-around navigation** — arrow past the last image and you land back on the first.
-- **Dark and light themes**, following the system or pinned to your preference.
-- **Updates itself** — Update → Check for Updates, then one button to install and restart.
+- Opens **JPEG, PNG, GIF, WebP, HEIC/HEIF, TIFF, BMP, SVG and ICO** — and AVIF on macOS 13 or later
+- Arrow keys walk the folder, in the order you'd expect (`img2` before `img10`)
+- Zoom, pan, rotate, flip, fit-to-window and actual size
+- One window per image, opened straight from Finder
+- Copy, Share / AirDrop, Reveal in Finder, Move to Trash
+- Info panel: dimensions, size, dates
+- Large photos open as a sharp preview instead of slowing the Mac down
+- Light and dark appearance
 
-### Pro features
+### Peek Pro
 
-A subscription or an activation code unlocks:
+Slideshow, colour picker (click to copy the hex), batch rename, batch convert, crop & resize, and watermark.
+**₹20/month** or **₹220/year**, paid through Razorpay inside the app. Activation codes work too:
+**Peek → Enter Activation Code**.
 
-Slideshow · Colour picker · Batch rename · Batch format conversion · Crop & resize ·
-Watermarking · Histogram · Lossless JPEG rotation · Contact-sheet export · Print layout ·
-RAW preview · GPU filters
-
-| Plan | Price |
-|---|---|
-| Pro Monthly | ₹20 / month |
-| Pro Yearly | ₹220 / year |
-
-Buy in-app (Peek → Subscription…), or redeem an activation code at
-Peek → **Enter Activation Code…** (`⌘⇧K`). A code needs internet once, then
-works offline for its whole term.
-
----
-
-## Keyboard shortcuts
+## Keyboard
 
 | | |
 |---|---|
-| `←` `→` | Previous / next image (wraps around) |
-| `Space` | Next image |
-| `Home` / `End` | First / last image |
-| `⌘O` / `⌘⇧O` | Open image / open folder |
-| `⌘N` | New window |
-| `⌘B` | Toggle sidebar |
-| `I` | Toggle info panel |
-| `F` | Fullscreen |
-| `⌘=` / `⌘-` | Zoom in / out |
-| `⌘0` / `⌘1` | Fit to window / actual size |
-| `⌘R` | Rotate right |
-| `⌘⇧A` | Share / AirDrop |
-| `⌘⇧R` | Reveal in Finder |
-| `⌘⌫` | Move to Trash |
-| `⌘W` / `⌘Q` | Close window / quit |
+| Open image / folder | ⌘O / ⇧⌘O |
+| Previous / next | ← / → |
+| Zoom in / out | ⌘= / ⌘− |
+| Fit / actual size | ⌘0 / ⌘1 |
+| Rotate right / left | ⌘R / ⇧⌘L |
+| Fullscreen | F |
+| Info panel / sidebar | I / ⌘B |
+| Copy · Share · Trash | ⌘C · ⇧⌘A · ⌘⌫ |
+
+## Privacy
+
+Your images never leave your Mac. Peek connects to the internet for three things only: checking for updates,
+activating a code, and a subscription checkout you start yourself.
+
+## Problems
+
+[Open an issue](../../issues) with your macOS version, your Mac (Apple Silicon or Intel), and what happened.
 
 ---
 
-## Release notes
-
-Every release carries full notes. See the [releases page](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases), or fetch them directly:
-
-- Markdown — `https://ipconfig.co.network/updates/peek/release-notes-1.0.9.md`
-- JSON — `https://ipconfig.co.network/updates/peek/release-notes-1.0.9.json`
-- Index of all releases — `https://ipconfig.co.network/updates/peek/release-notes.json`
-
----
-
-## About this repository
-
-This repo hosts **downloads and release notes only** — the source code is private.
-If you hit a bug or want a feature, open an [issue](https://github.com/JKS-sys/peek-04-sep-2026-releases/issues);
-it is read.
-
-## Support the work
-
-Peek is built and maintained by **Jagadeesh Kumar S** of
-[NewsCraft Studio](https://www.youtube.com/@JKS-sys).
-
-- Product page — https://ipconfig.co.network/peek
-- Sponsor / donate — https://razorpay.me/@NSBJKS
-- Email — JKS.sys@icloud.com
-
-## Licence
-
-Peek is proprietary software. © 2026 Jagadeesh Kumar S. All rights reserved.
-The binaries here are free to download and use under the terms shown in-app;
-they may not be redistributed, repackaged or resold.
+Made by **Jagadeesh Kumar S** — [NewsCraft Studio on YouTube](https://www.youtube.com/@JKS-sys) ·
+[JKS.sys@icloud.com](mailto:JKS.sys@icloud.com)
