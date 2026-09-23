@@ -7,7 +7,7 @@
 <p align="center">A fast, minimal image viewer for macOS.<br>
 Open a picture, arrow through the folder, get back to work.</p>
 
-<p align="center"><b>Version 2.0.3</b> · about 4–5 MB · macOS 10.15 or later</p>
+<p align="center"><b>Version 2.0.4</b> · about 4–5 MB · macOS 10.15 or later</p>
 
 ---
 
@@ -15,8 +15,8 @@ Open a picture, arrow through the folder, get back to work.</p>
 
 | Mac | Download |
 |---|---|
-| **Apple Silicon** (M1 and later) | [Peek_2.0.3_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.3_aarch64.dmg) |
-| **Intel** | [Peek_2.0.3_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.3_x64.dmg) |
+| **Apple Silicon** (M1 and later) | [Peek_2.0.4_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.4_aarch64.dmg) |
+| **Intel** | [Peek_2.0.4_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.4_x64.dmg) |
 
 Not sure which? Apple menu → **About This Mac**. "Apple M1/M2/M3/M4" means Apple Silicon; "Intel" means Intel.
 All versions are on the [Releases](../../releases) page.
@@ -79,6 +79,11 @@ Slideshow, colour picker (click to copy the hex), batch rename, batch convert, c
 Your images never leave your Mac. Peek connects to the internet for three things only: checking for updates,
 activating a code, and a subscription checkout you start yourself.
 
+## Support Peek
+
+Peek is made by one person. If it saves you time, you can
+[buy me a coffee](https://razorpay.me/@NSBJKS) — any amount, one tap, UPI or card.
+
 ## Problems
 
 [Open an issue](../../issues) with your macOS version, your Mac (Apple Silicon or Intel), and what happened.
@@ -86,4 +91,4 @@ activating a code, and a subscription checkout you start yourself.
 ---
 
 Made by **Jagadeesh Kumar S** — [NewsCraft Studio on YouTube](https://www.youtube.com/@JKS-sys) ·
-[JKS.sys@icloud.com](mailto:JKS.sys@icloud.com)
+[JKS.sys@icloud.com](mailto:JKS.sys@icloud.com) · [Sponsor](https://razorpay.me/@NSBJKS)
