@@ -1,15 +1,15 @@
 {
-  "version": "2.0.5",
-  "notes": "- **Opening an image from Finder** shows that image in one window — no more duplicate or blank windows when opening several at once.\n- **Menu commands only affect the window you're in.** Previously, with several windows open, commands like Move to Trash acted on every window.\n- **Large images no longer crash Peek.** Very large photos open as a sharp preview instead of exhausting memory.\n- **Updates download once.** An update you have not installed yet is not downloaded again when you reopen Peek, and Install & Restart is now quick and reliably brings Peek back.\n- **Subscriptions** work again — Monthly ₹20 or Yearly ₹220 through Razorpay.\n- The version number now shows on the start screen, in the bottom bar and in the info panel.\n- **Reopens what you had open.** Quit with several images open and they all come back next launch.\n- **Windows and Linux builds.**\n- Updates now try three sources, so a slow or unreachable one no longer means \"could not reach the update server\".\n- **Sidebar search**, and clicking a folder now opens or closes it — one click, whether it is a folder or an image.\n- **Big folders no longer freeze the sidebar.** Opening /Volumes or a Downloads folder with thousands of files is now instant; very large folders show the first 4,000 items and say how many are left.\n- **A folder you close stays closed.** Collapsing the folder holding the image you are viewing used to spring open again on the next arrow key.\n- Folders no longer appear twice in the sidebar.\n- New app icon, and a Sponsor link if you'd like to support Peek.\n\n**Installing from the DMG?** Drag Peek to Applications, then run this once in Terminal:\n\n```bash\nxattr -cr /Applications/Peek.app\n```\n\nUpdates from inside Peek do not need it.",
-  "pub_date": "2026-09-27T07:06:13.717Z",
+  "version": "2.0.6",
+  "notes": "- **The sidebar no longer jumps when you click.** Opening an image or a folder used to scroll the list immediately, moving the row out from under the pointer — so a single click read as nothing happening.\n\n**Installing from the DMG?** Drag Peek to Applications, then run this once in Terminal:\n\n```bash\nxattr -cr /Applications/Peek.app\n```\n\nUpdates from inside Peek do not need it.",
+  "pub_date": "2026-09-27T11:39:39.582Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReWRySyt4Wmg0TjRRZ2JyaHd0RWNyYUtuenJDWUZiWUVoUHNzNmdYR256YlJjaGc4Y3NpQ1E5NHdXbkc0QVFZWjZPdGNuNjBMWU5CUmV3U3Y4amtpSm8wR0dROEhUYkFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDkyNjc1CWZpbGU6UGVlay5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjUKcXo0QzBaRGdaeTF1WEhZY3l2VkYwaEVRY2d2eGZrRzRmLzJUaU14d3lUSVNyOGFUMWNreElwcTZIRk52c2hsb2xIVW0zZnpOYTFBM1haRU12cU9YQ0E9PQo=",
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.5_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReWRySyt4Wmg0TjMrZ3N6NzliY2Z0OEZBUStqc0RFL21ZOXNiVHdoZGdkSERCN0tXRE0xaDdnV3ljRVZHeVM5a1ExZ2dVRlpEQ2JzK2hETzlyWU1EUkF6eTFFU3NSQWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTA5MDEwCWZpbGU6UGVlay5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjYKaGY2YnZNR2hTUHRUL2Z5N05TSnFSYXFXNW0wR3JDdmlMMDEzQThCRzJTbnhBbVpESENDc0wwOXBWcEc1TG1jVVFzQjJoN0gybS9odk9SVExoL0kzQUE9PQo=",
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.6_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReWRySyt4Wmg0TnlWeWUzMFlmWlg1VkozSjkzbHJIMExMNng2NjVHcHlaL25TcllkOXBqL09OV1pvWHpWUU9kMEpxUmlZeEZjZHNvbGhGUDBMWC9ORjlpeStXbVNTYUEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNDkyNzY2CWZpbGU6UGVlay5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjUKUmpzUUtRclJhcUNMd1htbFZac3lWKys2dC90eTFXNVJueTQ1dEtkc2xpZVpVNkFxVG9COWVlZm4rOVlOVTV2TnppQnBLZVM5eUlRNVN5TXhHVmJmRFE9PQo=",
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.5_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReWRySyt4Wmg0TjJRak1VcjlpTDN4VHFDOUN3S1ZsejMzSHU0RFp1b1E4QnV2Ull1MHdNUE1VNlF4SzFQM1FIY0QvbWVCSDhWcllxT2FlaER4bC9uT1VKclE5Y0xrRUFNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTA5MTczCWZpbGU6UGVlay5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjYKY3ZRUHMyaUlkcDZ6aDFxYnN1OFFxS2VlM0xjanEzR1A3SDVkakhWSlZvTUtQQS9WSW54VDA0a1BBV21RelE2MzVqUS9xUzlxRFAxcVYwVExmeVIyQUE9PQo=",
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.6_x64.app.tar.gz"
     }
   }
 }
