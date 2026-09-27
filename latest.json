@@ -1,15 +1,15 @@
 {
-  "version": "2.0.7",
-  "notes": "- **Move to…** in the sidebar's right-click menu — send the selected images to any folder. Existing files are never overwritten; a clash becomes \"name 2\".\n- **Folders with no images are hidden** in the sidebar, so only folders worth opening are listed.\n- One click opens an image from the sidebar.\n\n- **The sidebar no longer jumps when you click.** Opening an image or a folder used to scroll the list immediately, moving the row out from under the pointer — so a single click read as nothing happening.\n\n**Installing from the DMG?** Drag Peek to Applications, then run this once in Terminal:\n\n```bash\nxattr -cr /Applications/Peek.app\n```\n\nUpdates from inside Peek do not need it.",
-  "pub_date": "2026-09-27T16:21:36.267Z",
+  "version": "2.0.8",
+  "notes": "- **Windows and Linux builds.**\n\n- **Move to…** in the sidebar's right-click menu — send the selected images to any folder. Existing files are never overwritten; a clash becomes \"name 2\".\n- **Folders with no images are hidden** in the sidebar, so only folders worth opening are listed.\n- One click opens an image from the sidebar.\n\n- **The sidebar no longer jumps when you click.** Opening an image or a folder used to scroll the list immediately, moving the row out from under the pointer — so a single click read as nothing happening.\n\n**Installing from the DMG?** Drag Peek to Applications, then run this once in Terminal:\n\n```bash\nxattr -cr /Applications/Peek.app\n```\n\nUpdates from inside Peek do not need it.",
+  "pub_date": "2026-09-27T16:37:35.043Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReWRySyt4Wmg0TjJxTkVMOHlrZjdQWGhVcnppYi9MWU5xZGdZa3JOWWRSdXdYeElLcHhGRjdGTGtBaWp0eHJ3T2Q1MmZ0VFBJbE5iVjIxNnhUaDNaNHR4NEtpa3FkbkFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTI1OTYyCWZpbGU6UGVlay5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjcKSk8yRDd1TlBnbzF5QkJoSURCY09DUTIyeUhXK29jOVpld0lteEp5b29hMkFSN0ZTUGU2K2lTUmp3ck1sVWYrWFZEdEk5ZjJZNytYUDVHdlVXNkYyQ2c9PQo=",
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.7_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReWRySyt4Wmg0TjR2bzhmNUFIRENuL1RiV0Q1WUd4MndMck1WdTV0V3dsM01aUzYxOWtxeWhvalRUbVBMU0FGY0VxTndET3E1aWtKOGVlTk1odFRqWDBoSUdycHVodmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTI2OTY0CWZpbGU6UGVlay5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjgKcUgxV0J1YjBXZTgxNjB0cDI2dm4vbXk3TmRSN3RuSGxFTks1U1drSjVqcFdiTFdtNmNCbU5zd0V6TXFYOWk4aW1VZlh5Mi9Zb0w5d0o0SFVDMXBLQnc9PQo=",
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.8_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReWRySyt4Wmg0Tnp4enB1MVliZ1JUNWh6dlExYlpLRUxmUmRHeGw5UGJYamlqb3RpU1BVcFZDVG9vN1RHRm5xRzF2cnhzNWt4LzBMNG04aDR0M0l2eUkrSUhNZ2VZWVFFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTI2MDg5CWZpbGU6UGVlay5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjcKeEtkMnI5M09UaFQvamRHanI5UWExcWoxaWFHK0Z5R1BJTGw3bTEveUI0WktzMEpoR3ZUOG0zckpESFpLbVloL1c1aldBTGdlbmdhWFRyWFp2M3JVQ3c9PQo=",
-      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.7_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVReWRySyt4Wmg0TnhEOHVrMlIvMDhJSUoxWWJLalpSd2hWQ3lPTGdma3VYZW5HL3NZbUw0cS9Hem5EWjIvbVhVMVp6bFFQNFYweTA2RVFrSEhpbFFKbGlwbXNBa0FpdmdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTI3MDQ4CWZpbGU6UGVlay5hcHAudGFyLmd6CXZlcnNpb246Mi4wLjgKT2I3UUxWK1o1dTA3Vy9jSXFaMmJLUTUwWm1aKzFtcHdabDlUc0s3NUtVUDlodzZ2aFZnSS9ZUG5mdjhGNjdBOUpyTSs5bXFEYWtqZWNpQ1pNVm9DQnc9PQo=",
+      "url": "https://ipconfig.co.network/updates/peek/Peek_2.0.8_x64.app.tar.gz"
     }
   }
 }
