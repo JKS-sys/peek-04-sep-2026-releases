@@ -1,5 +1,8 @@
 <p align="center">
-  <img src="https://ipconfig.co.network/updates/peek/icon.png" width="128" height="128" alt="Peek">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="icons/peek-dark.png">
+    <img src="icons/peek-light.png" width="128" height="128" alt="Peek app icon — two gold eyes on a rounded tile">
+  </picture>
 </p>
 
 <h1 align="center">Peek</h1>
@@ -8,12 +11,12 @@
 Open a picture, arrow through the folder, get back to work.</p>
 
 <p align="center">
-  <a href="https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest"><b>⬇ Latest release (v2.0.11)</b></a> ·
+  <a href="https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest"><b>⬇ Latest release (v2.0.12)</b></a> ·
   <a href="https://ipconfig.co.network/peek"><b>🌐 Website</b></a> ·
-  <a href="https://ipconfig.co.network/updates/peek/notes">📝 Release notes</a>
+  <a href="RELEASE-NOTES.md">📝 Release notes</a>
 </p>
 
-<p align="center"><b>Version 2.0.11</b> · a few MB · macOS 10.15+, Windows 10+, Linux x86_64</p>
+<p align="center"><b>Version 2.0.12</b> · a few MB · macOS 10.15+, Windows 10+, Linux x86_64</p>
 
 <p align="center">
   <img src="screenshots/peek-light.webp" width="860" alt="Peek in light mode: the sidebar on the left lists a folder of images, with the selected image open on the right">
@@ -43,9 +46,9 @@ irm https://ipconfig.co.network/updates/peek/install.ps1 | iex
 
 | Platform | Download |
 |---|---|
-| **Mac — Apple Silicon** (M1 and later) | [Peek_2.0.11_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.11_aarch64.dmg) |
-| **Mac — Intel** | [Peek_2.0.11_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.11_x64.dmg) |
-| **Windows** | [Peek_2.0.11_x64-setup.exe](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) |
+| **Mac — Apple Silicon** (M1 and later) | [Peek_2.0.12_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.12_aarch64.dmg) |
+| **Mac — Intel** | [Peek_2.0.12_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.12_x64.dmg) |
+| **Windows** | [Peek_2.0.12_x64-setup.exe](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) |
 | **Linux** (AppImage / .deb) | [Latest release](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) |
 
 Downloaded a DMG by hand? Drag **Peek** into **Applications**, then run this once in Terminal:
@@ -56,6 +59,17 @@ xattr -cr /Applications/Peek.app
 
 Peek is not distributed through the App Store, so macOS marks a browser download as quarantined and may call it
 "damaged". That command removes only the download flag. The one-line installer above does it for you.
+
+## The icon
+
+<table>
+  <tr>
+    <td align="center" width="50%"><img src="icons/peek-light.png" width="96" height="96" alt="Peek light icon"><br><b>Light</b> — Anti-Flash White tile, gold eyes. The default.</td>
+    <td align="center" width="50%"><img src="icons/peek-dark.png" width="96" height="96" alt="Peek dark icon"><br><b>Dark</b> — warm near-black tile, gold eyes.</td>
+  </tr>
+</table>
+
+The app's light and dark themes use the same two tiles and the same gold.
 
 ## Screenshots
 
