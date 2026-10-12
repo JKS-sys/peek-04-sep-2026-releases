@@ -5,7 +5,20 @@ Release notes are built from this file. Write the next release's notes under
 After a release, rename the heading to that version and start a new
 `## Unreleased`.
 
-## 2.0.12 — 2026-10-08
+## 2.0.13 — 2026-10-12
+
+- **No more "Peek would like to access files in your Downloads folder" after every update.** The sidebar no longer peeks inside Desktop, Documents, Downloads, iCloud or external drives until you open them, and Mac builds are signed with one stable identity so macOS remembers your answer.
+- **Closing the last window quits Peek** completely, as you'd expect from a viewer.
+- **Start-up animation:** the eyes draw themselves, blink and look around while the name rises, with a soft chime and the byline. Turn it off in View › Start-up Animation.
+- **Right-click everywhere:** a new menu on the image, the bar, the sidebar and the welcome screen, with coloured icons, shortcuts and submenus (Rotate & Flip, Zoom, Go to, View, Open, Copy). Right-click a row in Image Info to copy its value.
+- **Dock menu on Mac:** right-click Peek's Dock icon for a new window, open, next/previous, rotate, fit, fullscreen, copy, share, reveal, Set as Desktop Picture and more.
+- **Set as Desktop Picture** (File menu and right-click), on macOS, Windows and Linux.
+- **Drag and drop fixed:** dropping images on the window opens them again.
+- **Small windows:** nothing overlaps and nothing scrolls. The sidebar floats over the picture, the bar keeps its essentials, and Image Info and the sidebar take turns on narrow windows.
+- **More motion and sound:** button ripples, a circular theme switch, sparks when you delete, confetti when Pro activates, and action toasts whose icons draw themselves — each with its own sound.
+- **More colour:** brackets and folders coloured by depth, depth guides in the sidebar, coloured scrollbars. Still no pink.
+- The README shows animated demos and new screenshots.
+- For the maker: `npm run apple-sign` (Developer ID or App Store build), repository topics and website set on every release, and `RZP_20_MONTHLY` / `RZP_220_YEARLY` plan names.
 
 - **New look, from the icon.** The app icon's eyes are now gold, and the light and dark themes are the icon's own tiles — Anti-Flash White and warm near-black — with the same gold as the accent. Buttons, highlights and the Peek wordmark follow it.
 - **Owner Panel** (Peek › Owner Panel…, ⌥⌘K) replaces the Owner Console and opens in its own window on the owner's Mac. No admin token: the Mac's serial is the credential.
