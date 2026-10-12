@@ -11,12 +11,12 @@
 Open a picture, arrow through the folder, get back to work.</p>
 
 <p align="center">
-  <a href="https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest"><b>⬇ Latest release (v2.0.12)</b></a> ·
+  <a href="https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest"><b>⬇ Latest release (v2.0.13)</b></a> ·
   <a href="https://ipconfig.co.network/peek"><b>🌐 Website</b></a> ·
   <a href="RELEASE-NOTES.md">📝 Release notes</a>
 </p>
 
-<p align="center"><b>Version 2.0.12</b> · a few MB · macOS 10.15+, Windows 10+, Linux x86_64</p>
+<p align="center"><b>Version 2.0.13</b> · a few MB · macOS 10.15+, Windows 10+, Linux x86_64</p>
 
 <p align="center">
   <img src="screenshots/peek-light.webp" width="860" alt="Peek in light mode: the sidebar on the left lists a folder of images, with the selected image open on the right">
@@ -46,9 +46,9 @@ irm https://ipconfig.co.network/updates/peek/install.ps1 | iex
 
 | Platform | Download |
 |---|---|
-| **Mac — Apple Silicon** (M1 and later) | [Peek_2.0.12_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.12_aarch64.dmg) |
-| **Mac — Intel** | [Peek_2.0.12_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.12_x64.dmg) |
-| **Windows** | [Peek_2.0.12_x64-setup.exe](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) |
+| **Mac — Apple Silicon** (M1 and later) | [Peek_2.0.13_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.13_aarch64.dmg) |
+| **Mac — Intel** | [Peek_2.0.13_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.dmg) |
+| **Windows** | [Peek_2.0.13_x64-setup.exe](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) |
 | **Linux** (AppImage / .deb) | [Latest release](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) |
 
 Downloaded a DMG by hand? Drag **Peek** into **Applications**, then run this once in Terminal:
@@ -59,6 +59,54 @@ xattr -cr /Applications/Peek.app
 
 Peek is not distributed through the App Store, so macOS marks a browser download as quarantined and may call it
 "damaged". That command removes only the download flag. The one-line installer above does it for you.
+
+## See it in action
+
+Every clip below is the real app, recorded frame by frame. Click a clip for the full-quality MP4.
+
+<table>
+  <tr>
+    <td width="50%"><a href="demos/startup.mp4"><img src="demos/startup.gif" alt="Peek's start-up animation: the gold eyes draw themselves, blink, and the name rises letter by letter"></a></td>
+    <td width="50%"><a href="demos/browse.mp4"><img src="demos/browse.gif" alt="Opening the sidebar, expanding folders and opening images with one click, then walking the folder with the arrow keys"></a></td>
+  </tr>
+  <tr>
+    <td><b>Start-up.</b> The eyes draw in, blink and look around while the name rises, with a soft chime.
+    Turn it off in <i>View › Start-up Animation</i>.</td>
+    <td><b>Browse.</b> <kbd>⌘B</kbd> opens the sidebar, which lists only folders with pictures. One click opens an
+    image; <kbd>←</kbd> <kbd>→</kbd> walk the folder and wrap around.</td>
+  </tr>
+  <tr>
+    <td><a href="demos/tools.mp4"><img src="demos/tools.gif" alt="Zooming, rotating, then right-clicking the image to open a menu with submenus and choosing Set as Desktop Picture"></a></td>
+    <td><a href="demos/delete.mp4"><img src="demos/delete.gif" alt="Selecting an image in the sidebar and pressing Delete to move it to the Trash"></a></td>
+  </tr>
+  <tr>
+    <td><b>Tools and right-click.</b> Zoom, rotate and flip with a live read-out. Right-click for everything,
+    down to <i>Set as Desktop Picture</i>. Each action has its own sound and a small animated icon.</td>
+    <td><b>Delete.</b> Select one image or several and press <kbd>Delete</kbd>. They go to the Trash and the next
+    image is selected, so you can keep going.</td>
+  </tr>
+  <tr>
+    <td><a href="demos/theme.mp4"><img src="demos/theme.gif" alt="Switching between dark and light mode with a circle that grows from the click"></a></td>
+    <td><img src="screenshots/peek-small-window.webp" alt="Peek in a small window: the sidebar floats over the image and nothing overlaps"></td>
+  </tr>
+  <tr>
+    <td><b>Light and dark.</b> The theme sweeps across in a circle. Both use the icon's own white, black and gold.</td>
+    <td><b>Any window size.</b> Shrink the window and the sidebar floats over the picture. The bar drops to its
+    essentials, so nothing overlaps and nothing scrolls.</td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td width="50%"><img src="screenshots/peek-menu.webp" alt="The right-click menu with coloured icons, shortcuts and a Rotate and Flip submenu"></td>
+    <td width="50%"><img src="screenshots/peek-splash.webp" alt="The start-up screen: Peek's eyes, the name in four colours and the byline By Jagadeesh Kumar S"></td>
+  </tr>
+  <tr>
+    <td><b>Right-click menu.</b> Coloured icons, shortcuts and tidy submenus. On a Mac the Dock icon has its own
+    menu too: right-click it for a new window, next and previous, rotate, fullscreen and more.</td>
+    <td><b>The start-up screen.</b> Shown once per launch, then straight to your image.</td>
+  </tr>
+</table>
 
 ## The icon
 
@@ -114,6 +162,11 @@ The app's light and dark themes use the same two tiles and the same gold.
 - Copy, Share / AirDrop, Reveal in Finder, Move to Trash, Move to…
 - Large photos open as a sharp preview instead of slowing the computer down
 - Updates itself: **Update › Check for Updates**
+- **Right-click everywhere:** on the image, the bar, the sidebar and Image Info, plus a menu on the Mac Dock icon
+- **Drag and drop** an image onto the window to open it
+- **Set as Desktop Picture** in one click, on macOS, Windows and Linux
+- Closing the last window quits Peek completely
+- Works at any window size: nothing overlaps, nothing scrolls
 - Press **?** for every keyboard shortcut
 
 ### Peek Pro
