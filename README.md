@@ -18,6 +18,8 @@ Open a picture, arrow through the folder, get back to work.</p>
 
 <p align="center"><b>Version 2.0.13</b> · a few MB · macOS 10.15+, Windows 10+, Linux x86_64</p>
 
+<p align="center"><b>If Peek helps you, please ⭐ star this repository — it helps other people find it.</b></p>
+
 <p align="center">
   <img src="screenshots/peek-light.webp" width="860" alt="Peek in light mode: the sidebar on the left lists a folder of images, with the selected image open on the right">
 </p>
@@ -211,3 +213,7 @@ Peek is made by one person. If it saves you time, you can
 Made by **Jagadeesh Kumar S** — [Website](https://ipconfig.co.network/peek) ·
 [NewsCraft Studio on YouTube](https://www.youtube.com/@JKS-sys) ·
 [JKS.sys@icloud.com](mailto:JKS.sys@icloud.com) · [Sponsor](https://razorpay.me/@NSBJKS)
+
+---
+
+<p align="center"><b>If Peek helps you, please ⭐ star this repository — it helps other people find it.</b></p>
