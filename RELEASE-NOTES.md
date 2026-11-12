@@ -5,7 +5,23 @@ Release notes are built from this file. Write the next release's notes under
 After a release, rename the heading to that version and start a new
 `## Unreleased`.
 
-## 2.0.13 — 2026-10-12
+## 2.0.14 — 2026-11-12
+
+- **Signed and notarised by Apple.** Mac builds are signed with an Apple Developer ID, notarised and stapled, so Peek opens with no warning and no Terminal command. macOS asks for folder access **one more time** after this update (the signature changed once, for good), then never again.
+- **Analysis (press A).** Pixels, megapixels, aspect ratio (3:2, 16:9…), print size, a tone summary with brightness, contrast and saturation meters, what the folder is made of, and your session. **Pro** adds the red/green/blue histogram with tonal range and clipping, the colour palette (click a colour to copy its code), average colour, warm or cool, a sharpness estimate, compression and transparency.
+- **Activity Log (press L).** Everything Peek does leaves a line: opened, copied, shared, trashed, updates, errors. A live sparkline, the rate per minute, and a count for each level — click one to filter. Copy it or save it as text. Each level has its own short sound and its own drawing; a red dot on the button tells you an error arrived while the log was closed. Nothing is stored or sent.
+- **Composition guides (T):** rule of thirds, golden ratio, centre cross, diagonals. They sit on the picture itself and follow zoom, pan and rotation.
+- **Backdrop (G):** theme, checkerboard, black, mid grey or white behind the picture. **Crisp pixels (P)** shows pixel art and screenshots without smoothing. Both are remembered.
+- **Go to image number (J)** and **Random image (X).**
+- **Motion (M):** lively, subtle or off — on top of your system's reduce-motion setting.
+- **A picture that cannot be decoded now says so.** It used to show the loading spinner for ever.
+- **Drawn icons everywhere.** The bottom bar, About and the Owner Panel used typed symbols that macOS could draw as colour emoji; the sidebar and slideshow buttons even looked the same. Every one is now a drawn icon with a tooltip, in its own colour.
+- **18 new sounds and 19 new self-drawing scenes** — one of each for every new feature and every log level.
+- **Faster start.** About, Subscription, Activation, the Pro tools and the Owner Panel now load when first opened: about 10% less script is read at start-up than in 2.0.13, even with everything above added.
+- **Small windows:** the new panes fill a tiny window instead of overlapping it, take turns with Image Info and the sidebar, and every screen was checked from 380 × 300 up, in both themes.
+- Two sponsor-link colours were pink; they are orange now. The version text is readable in the light theme.
+- Previous / next in the bottom bar are no longer greyed out at the ends of a folder — they wrap around, as the arrow keys always did.
+- For the maker: keys come from the dashboard vault (`npm run vault`) — no `.env` on any Mac; the updater key is checked against the one installed copies trust before anything is built, and is never re-made; `bash update.sh --self-signed` keeps the old signature; `npm test` runs 67 checks.
 
 - **No more "Peek would like to access files in your Downloads folder" after every update.** The sidebar no longer peeks inside Desktop, Documents, Downloads, iCloud or external drives until you open them, and Mac builds are signed with one stable identity so macOS remembers your answer.
 - **Closing the last window quits Peek** completely, as you'd expect from a viewer.
