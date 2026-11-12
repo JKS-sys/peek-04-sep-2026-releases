@@ -11,12 +11,12 @@
 Open a picture, arrow through the folder, get back to work.</p>
 
 <p align="center">
-  <a href="https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest"><b>⬇ Latest release (v2.0.13)</b></a> ·
+  <a href="https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest"><b>⬇ Latest release (v2.0.14)</b></a> ·
   <a href="https://ipconfig.co.network/peek"><b>🌐 Website</b></a> ·
   <a href="RELEASE-NOTES.md">📝 Release notes</a>
 </p>
 
-<p align="center"><b>Version 2.0.13</b> · a few MB · macOS 10.15+, Windows 10+, Linux x86_64</p>
+<p align="center"><b>Version 2.0.14</b> · a few MB · macOS 10.15+, Windows 10+, Linux x86_64</p>
 
 <p align="center"><b>If Peek helps you, please ⭐ star this repository — it helps other people find it.</b></p>
 
@@ -35,8 +35,7 @@ curl -fsSL https://ipconfig.co.network/updates/peek/install.sh | bash
 ```
 
 It downloads the latest Peek for your Mac (Apple Silicon or Intel) or Linux PC, installs it, and opens it.
-Run it again any time to update. On a Mac it installs to **/Applications** and clears the download quarantine
-flag for you, so there is no "damaged app" warning.
+Run it again any time to update. On a Mac it installs to **/Applications**.
 
 ### Windows — one line (PowerShell)
 
@@ -48,19 +47,16 @@ irm https://ipconfig.co.network/updates/peek/install.ps1 | iex
 
 | Platform | Download |
 |---|---|
-| **Mac — Apple Silicon** (M1 and later) | [Peek_2.0.13_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.13_aarch64.dmg) |
-| **Mac — Intel** | [Peek_2.0.13_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.13_x64.dmg) |
-| **Windows** | [Peek_2.0.13_x64-setup.exe](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) |
+| **Mac — Apple Silicon** (M1 and later) | [Peek_2.0.14_aarch64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.14_aarch64.dmg) |
+| **Mac — Intel** | [Peek_2.0.14_x64.dmg](https://ipconfig.co.network/updates/peek/Peek_2.0.14_x64.dmg) |
+| **Windows** | [Peek_2.0.14_x64-setup.exe](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) |
 | **Linux** (AppImage / .deb) | [Latest release](https://github.com/JKS-sys/peek-04-sep-2026-releases/releases/latest) |
 
-Downloaded a DMG by hand? Drag **Peek** into **Applications**, then run this once in Terminal:
+Downloaded a DMG by hand? Drag **Peek** into **Applications** and open it. From 2.0.14 Peek is signed with an
+Apple Developer ID and notarised by Apple, so macOS opens it with no warning.
 
-```bash
-xattr -cr /Applications/Peek.app
-```
-
-Peek is not distributed through the App Store, so macOS marks a browser download as quarantined and may call it
-"damaged". That command removes only the download flag. The one-line installer above does it for you.
+If you have an older DMG and macOS calls it "damaged", run `xattr -cr /Applications/Peek.app` once in Terminal —
+or just download the current one.
 
 ## See it in action
 
@@ -169,11 +165,22 @@ The app's light and dark themes use the same two tiles and the same gold.
 - **Set as Desktop Picture** in one click, on macOS, Windows and Linux
 - Closing the last window quits Peek completely
 - Works at any window size: nothing overlaps, nothing scrolls
+- **Analysis (A):** pixels, megapixels, aspect ratio, print size, a tone summary with brightness, contrast and
+  saturation meters, what the folder is made of, and your session
+- **Activity Log (L):** everything Peek did, live — a sparkline, counts per level you can click to filter,
+  copy or save as text. Nothing leaves your computer
+- **Composition guides (T):** rule of thirds, golden ratio, centre cross, diagonals — they follow zoom and rotation
+- **Backdrop (G):** theme, checkerboard, black, grey or white behind the picture · **Crisp pixels (P)** for pixel art
+- **Go to image number (J)** and **Random image (X)**
+- **Motion (M):** lively, subtle or off
+- A picture that cannot be decoded says so, instead of loading for ever
 - Press **?** for every keyboard shortcut
 
 ### Peek Pro
 
-Slideshow, colour picker (click to copy the hex), batch rename, batch convert, crop & resize and watermark.
+Slideshow, colour picker (click to copy the hex), batch rename, batch convert, crop & resize and watermark —
+and in Analysis: the RGB histogram with tonal range and clipping, the colour palette with codes you click to
+copy, average colour, warm or cool, sharpness, compression and transparency.
 **₹20/month** or **₹220/year**, paid through Razorpay inside the app. Activation codes work too:
 **Peek › Enter Activation Code**. Viewing images is free for everyone.
 
@@ -188,6 +195,9 @@ Slideshow, colour picker (click to copy the hex), batch rename, batch convert, c
 | Rotate | R |
 | Fullscreen | F |
 | Info panel / sidebar | I / ⌘B |
+| Analysis / Activity Log | A / L |
+| Guides · Backdrop · Crisp pixels | T · G · P |
+| Go to number · Random · Motion | J · X · M |
 | Delete selected images (sidebar) | ⌫ |
 | Copy · Share · Trash | ⌘C · ⇧⌘A · ⌘⌫ |
 | All shortcuts | ? |
